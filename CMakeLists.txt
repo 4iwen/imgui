@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.27)
-project(ImGui)
+cmake_minimum_required(VERSION 3.6)
+project(ImGui LANGUAGES CXX)
 
 add_library(
         ImGui STATIC
